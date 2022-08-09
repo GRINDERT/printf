@@ -1,2 +1,1 @@
-# printf
-this is for the pair work
+these is about printf function
