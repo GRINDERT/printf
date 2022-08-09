@@ -1,8 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
+
+
 /**
- * _printf - printf function
- * @format: const char pointer
- * Return: b_len
+ * _printf - prints a formated output to the stdout and returns the length of output
+ * @format: format string containing the characters and the specifiers
+ * Description: this function will call the get_print() function that will
+ * determine which printing function to call depending on the conversion
+ * specifiers contained into fmt
+ * Return: length of the formatted output string
  */
 int _printf(const char *format, ...)
 {
