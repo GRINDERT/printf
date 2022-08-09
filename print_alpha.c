@@ -1,9 +1,7 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
 
 /**
- * print_string - loops through a string pointed to by va_arg and prints
+ * print_string - loops through a string and prints
  * every character
  * @l: va_list arguments from _printf
  * @f: pointer to the struct flags that determines

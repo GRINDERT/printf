@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -10,7 +8,7 @@
  * if a flag is passed to _printf
  * Description: the function calls convert() which in turns converts the input
  * number into the correct base and returns it as a string
- * Return: the number of char printed to stdout
+ * Return: the number of char printed
  */
 int print_hex(va_list l, flags_t *f)
 {
